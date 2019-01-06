@@ -1,0 +1,100 @@
+header{
+    .item-header{
+        padding: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        background: $cl-input;
+        .address-contact{
+            padding: 15px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .adress{
+                width: 50%;
+                .title{
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+            }
+            .contact{
+                margin-left: 20px;
+                width: 50%;
+                .title{
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+        .link{
+            display: flex;
+            flex-direction: column;
+            align-content: flex-end;
+            .icon-link{
+                display: flex;
+                img{
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+            .copy-right{
+                text-align: end;
+                margin: 10px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    header{
+        .item-header{
+            padding: 30px;
+            display: flex;
+            background: $cl-input;
+            .address-contact{
+                margin-left: 10%;
+                padding: 15px;
+                width: 50%;
+                display: flex;
+                justify-content: space-between;
+                .adress{
+                    width: 50%;
+                    .title{
+                        font-weight: bold;
+                        margin-bottom: 15px;
+                    }
+                    p{
+                        line-height: 20px;
+                    }
+                }
+                .contact{
+                    margin-left: 20px;
+                    width: 50%;
+                    .title{
+                        font-weight: bold;
+                        margin-bottom: 15px;
+                    }
+                    p{
+                        line-height: 20px;
+                    }
+                }
+            }
+            .link{
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                width: 30%;
+                margin-top: 30px;
+                .icon-link{
+                    justify-content: flex-end;
+                    display: flex;
+                    img{
+                        max-width: 80%;
+                        height: auto;
+                    }
+                }
+                .copy-right{
+                }
+            }
+        }
+    }
+}

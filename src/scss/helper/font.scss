@@ -1,0 +1,15 @@
+@import 'mixin';
+
+@include set-font('poppins-bold', '../fonts/Poppins-Bold.ttf');
+@include set-font('poppins-semiBold', '../fonts/Poppins-SemiBold.ttf');
+@include set-font('poppins-italic', '../fonts/Poppins-Italic.ttf');
+@include set-font('poppins-medium', '../fonts/Poppins-Medium.ttf');
+@include set-font('poppins-regular', '../fonts/Poppins-Regular.ttf');
+@include set-font('poppins-light', '../fonts/Poppins-Light.ttf');
+
+@include set-font('display-regular', '../fonts/PlayfairDisplay-Regular.ttf');
+
+@include set-font('sanspro-bold', '../fonts/SourceSansPro-Bold.ttf');
+@include set-font('sanspro-semibold', '../fonts/SourceSansPro-SemiBold.ttf');
+@include set-font('sanspro-regular', '../fonts/SourceSansPro-Regular.ttf');
+@include set-font('play-fair', '../fonts/PlayfairDisplay-Italic.ttf');

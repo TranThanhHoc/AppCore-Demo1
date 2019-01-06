@@ -1,0 +1,204 @@
+@import "../.././helper/variable.scss";
+@import "../../helper/grid.scss";
+
+.price-our{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: $white;
+    .discount{
+        width: 100%;
+        p{
+            padding: 40px;
+            background: $cl-title;
+            color: $white;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            font-style: italic;
+            line-height: 30px;
+        }
+    }
+    .price{
+        padding-top: 30px;
+        .title{
+            color: $cl-title;
+            font-weight: bold;
+            text-align: center;
+            font-size: 20px
+        }
+        .content{
+            margin-left: 20%;
+            margin-right: 20%;
+            padding-top: 20px;
+            color: $cl-text;
+            text-align: center;
+            font-size: 18px;
+            line-height: 25px;
+        }
+        .list-buttom{
+            display: flex;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            flex-wrap: wrap;
+            justify-content: center;
+            p{
+                text-align: center;
+                margin: 15px;
+                //width: 25%;
+                a{
+                    padding: 10px;
+                    background: $cl-buttom;
+                    color: $black;
+                    font-weight: bold;
+                    border-radius: 3px;
+                    border-top: solid 1px $cl-border;
+                    &.current{
+                        border-top: none;
+                        border-radius: 3px;
+                        font-weight: bold;
+                        color: $white;
+                        background: $cl-title;
+                    }
+                }
+            }
+        }
+    }
+    .price-service{
+        margin-left: 10%;
+        margin-right: 10%;
+        justify-content: center;
+        .service{
+            max-width: 100%;
+            .name-price{
+                display: flex;
+                justify-content: space-between;
+               
+                padding-bottom: 15px;
+                .name{
+                    font-size: 16px;
+                    margin-top: 30px;
+                    font-weight: bold;
+                    font-style: italic;
+                }
+                .dot{
+                    font-size: 16px;
+                    display: none;
+                    color: $cl-title;
+                    font-weight: bold;
+                }
+                .price{
+                    font-size: 16px;
+                    color: $cl-title;
+                    font-weight: bold;
+                }
+            }
+            .content{
+                color: $cl-text;
+                line-height: 20px;
+                max-width: 100%;
+                text-align: justify;
+            }
+        }
+    }
+    .banner-service{
+        padding-top: 20px;
+        padding-bottom: 40px;
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    .price-our{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background: $white;
+        .price-service{
+            margin-left: 20%;
+            margin-right: 5%;
+            justify-content: center;
+            .service{
+                .name-price{
+                    display: flex;
+                    justify-content: space-between;
+                    max-width: 80%;
+                    padding-bottom: 15px;
+                    .name{
+                        font-size: 16px;
+                        margin-top: 30px;
+                        font-weight: bold;
+                        font-style: italic;
+                    }
+                    .dot{
+                        display: block;
+                        font-size: 16px;
+                        margin-top: 30px;
+                        color: $cl-title;
+                        font-weight: bold;
+                    }
+                    .price{
+                        font-size: 16px;
+                        color: $cl-title;
+                        font-weight: bold;
+                    }
+                }
+                .content{
+                    color: $cl-text;
+                    line-height: 20px;
+                    max-width: 80%;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .price-our{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background: $white;
+        .price-service{
+            margin-left: 20%;
+            margin-right: 15%;
+            display: flex;
+            
+            flex-wrap: wrap;
+            .service{
+                width: 50%;
+                .name-price{
+                    display: flex;
+                    justify-content: space-between;
+                    //max-width: 50%;
+                    padding-bottom: 15px;
+                    .name{
+                        font-size: 16px;
+                        margin-top: 30px;
+                        font-weight: bold;
+                        font-style: italic;
+                    }
+                    .dot{
+                        display: block;
+                        font-size: 16px;
+                        margin-top: 30px;
+                        color: $cl-title;
+                        font-weight: bold;
+                    }
+                    .price{
+                        font-size: 16px;
+                        color: $cl-title;
+                        font-weight: bold;
+                    }
+                }
+                .content{
+                    color: $cl-text;
+                    line-height: 20px;
+                    //max-width: 40%;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+}

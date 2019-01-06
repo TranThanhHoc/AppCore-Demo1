@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "poppins-bold";
+  src: url("../fonts/Poppins-Bold.ttf") format("opentype"); }
+@font-face {
+  font-family: "poppins-semiBold";
+  src: url("../fonts/Poppins-SemiBold.ttf") format("opentype"); }
+@font-face {
+  font-family: "poppins-italic";
+  src: url("../fonts/Poppins-Italic.ttf") format("opentype"); }
+@font-face {
+  font-family: "poppins-medium";
+  src: url("../fonts/Poppins-Medium.ttf") format("opentype"); }
+@font-face {
+  font-family: "poppins-regular";
+  src: url("../fonts/Poppins-Regular.ttf") format("opentype"); }
+@font-face {
+  font-family: "poppins-light";
+  src: url("../fonts/Poppins-Light.ttf") format("opentype"); }
+@font-face {
+  font-family: "display-regular";
+  src: url("../fonts/PlayfairDisplay-Regular.ttf") format("opentype"); }
+@font-face {
+  font-family: "sanspro-bold";
+  src: url("../fonts/SourceSansPro-Bold.ttf") format("opentype"); }
+@font-face {
+  font-family: "sanspro-semibold";
+  src: url("../fonts/SourceSansPro-SemiBold.ttf") format("opentype"); }
+@font-face {
+  font-family: "sanspro-regular";
+  src: url("../fonts/SourceSansPro-Regular.ttf") format("opentype"); }
+@font-face {
+  font-family: "play-fair";
+  src: url("../fonts/PlayfairDisplay-Italic.ttf") format("opentype"); }
+
+/*# sourceMappingURL=font.css.map */

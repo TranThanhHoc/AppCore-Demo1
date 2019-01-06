@@ -1,0 +1,32 @@
+@import 'variable';
+
+@mixin set-font($name, $link){
+    @font-face{
+        font-family: $name;
+        src: url($link) format("opentype"); 
+    }
+};
+
+@mixin set-f-s-cl($fam, $size, $cl){
+    font-size: $size;
+    color: $cl;
+    font-family: $fam;
+};
+
+@mixin flex($dir){
+    display: flex;
+    flex-direction: $dir;
+    @content
+};
+
+@mixin res($width) {
+    @media screen and(max-width: $width) {
+        @content;
+    }
+}
+
+@mixin res2($max-w, $min-w) {
+    @media only screen and (max-width:$max-w) and (min-width:$min-w){
+        @content;
+    } 
+}

@@ -1,0 +1,226 @@
+.send-message{
+    background: white;
+    padding-bottom: 30px;
+    .left{
+        p{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-left: 10%;
+            font-weight: bold;
+            font-size: 20px;
+            color: $cl-title;
+        }
+        .form-send{
+            margin-left: 10%;
+            margin-right: 10%;
+            display: flex;
+            flex-wrap: wrap;
+            .name{
+                padding-right: 15px;
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                span{
+                    margin-bottom: 5px;
+                    font-weight: bold;
+                }
+                input{
+                    padding-bottom: 5px;
+                    border: none;
+                    background: $cl-input;
+                    padding-top: 6px;
+                    padding-bottom: 6px;
+                }
+            }
+            .phone{
+                padding-left: 15px;
+                margin-top: -5px;
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                span{
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    font-weight: bold;
+                }
+                input{
+                    padding-bottom: 5px;
+                    border: none;
+                    background: $cl-input;
+                    padding-top: 6px;
+                    padding-bottom: 6px;
+                }
+            }
+            .email{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                span{
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    font-weight: bold;
+                }
+                input{
+                    padding-bottom: 5px;
+                    border: none;
+                    background: $cl-input;
+                    padding-top: 6px;
+                    padding-bottom: 6px;
+                }
+            }
+            .mess{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                span{
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    font-weight: bold;
+                }
+                textarea{
+                    padding-bottom: 5px;
+                    border: none;
+                    background: $cl-input;
+                    padding-top: 6px;
+                    padding-bottom: 6px;
+                }
+            }
+            button{
+                font-weight: bold;
+                color: $white;
+                background: $cl-title;
+                margin-top: 20px;
+                border: none;
+                padding: 10px;
+                border-radius: 3px;
+                box-shadow: 1px 2px 4px $cl-border;
+            }
+        }
+    }
+    .right{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
+
+@media only screen and (min-width: 481px) {
+
+}
+
+@media only screen and (min-width: 769px) {
+    .send-message{
+        background: white;
+        padding-bottom: 30px;
+        display: flex;
+        .left{
+            width: 50%;
+            p{
+                padding-top: 20px;
+                padding-bottom: 20px;
+                margin-left: 15%;
+                font-weight: bold;
+                font-size: 20px;
+                color: $cl-title;
+            }
+            .form-send{
+                margin-left: 15%;
+                margin-right: 10%;
+                display: flex;
+                flex-wrap: wrap;
+                .name{
+                    padding-right: 15px;
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    span{
+                        margin-bottom: 5px;
+                        font-weight: bold;
+                    }
+                    input{
+                        padding-bottom: 5px;
+                        border: none;
+                        background: $cl-input;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                    }
+                }
+                .phone{
+                    padding-left: 15px;
+                    margin-top: -5px;
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    span{
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                        font-weight: bold;
+                    }
+                    input{
+                        padding-bottom: 5px;
+                        border: none;
+                        background: $cl-input;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                    }
+                }
+                .email{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    span{
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                        font-weight: bold;
+                    }
+                    input{
+                        padding-bottom: 5px;
+                        border: none;
+                        background: $cl-input;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                    }
+                }
+                .mess{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    span{
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                        font-weight: bold;
+                    }
+                    textarea{
+                        padding-bottom: 5px;
+                        border: none;
+                        background: $cl-input;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                    }
+                }
+                button{
+                    font-weight: bold;
+                    color: $white;
+                    background: $cl-title;
+                    margin-top: 20px;
+                    border: none;
+                    padding: 10px;
+                    border-radius: 3px;
+                    box-shadow: 1px 2px 4px $cl-border;
+                }
+            }
+        }
+        .right{
+            width: 50%;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            img{
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
