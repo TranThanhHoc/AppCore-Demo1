@@ -115,12 +115,10 @@
   }
   .mobile-menu .lines {
     border-bottom: 15px double #f8f8f8;
-    border-top: 5px solid #f8f8f8;
     content: "";
     height: 5px;
     width: 20px;
-    padding-right: 15px;
-    float: right;
+    margin-left: 200%;
   }
   .mobile-menu ul {
     position: static;
